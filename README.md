@@ -49,6 +49,17 @@ Log out to clear your session.
 - Clean separation of backend routes, data models, and session handling  
 - Fully functional using only approved libraries and following all course restrictions
 
+## Project Structure
+
+- `server.js` — Express server and route handling
+- `users.js` — User registration and authentication logic
+- `sessions.js` — Session management
+- `src/` — React frontend components and styles
+
+## Credits and Licensing
+
+- https://unsplash.com/photos/white-printer-paper-on-white-table-tKSsUjiz5xw
+
 ## Getting Started
 
 To run the project locally:
@@ -61,13 +72,3 @@ npm start
 - Running `npm run build` to create the static files in the `dist/` directory.
 - Running `npm start` to start the Express server.
 
-## Project Structure
-
-- `server.js` — Express server and route handling
-- `users.js` — User registration and authentication logic
-- `sessions.js` — Session management
-- `src/` — React frontend components and styles
-
-## Credits and Licensing
-
-- https://unsplash.com/photos/white-printer-paper-on-white-table-tKSsUjiz5xw
